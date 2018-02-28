@@ -1,0 +1,31 @@
+body {
+  background: #135569; }
+
+ul {
+  display: inline-block;
+  width: 6rem; }
+
+li {
+  background: #dedfee;
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  margin: 2rem 0 2rem 2rem;
+  border-radius: 1rem; }
+  .css.activated li {
+    background: #d05f5e;
+    animation: emphasis 3s 0s infinite linear; }
+
+@keyframes emphasis {
+  0% {
+    transform: scale(1);
+    opacity: 1; }
+  30% {
+    transform: scale(0.5);
+    opacity: 0.5; }
+  78.75% {
+    transform: scale(0.667);
+    opacity: 0.667; }
+  100% {
+    transform: scale(0.6);
+    opacity: 0.6; } }
